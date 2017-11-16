@@ -294,6 +294,7 @@ public class Tela extends javax.swing.JFrame {
     }                                      
 
     static void write_lp_solution(glp_prob lp) {
+        //Gerar janela de resultado
         JFrame frame = new JFrame("Resultado");
    
         JPanel panel = new JPanel();
